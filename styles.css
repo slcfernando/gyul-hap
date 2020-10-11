@@ -37,7 +37,7 @@ html {
 body {
     display: grid;
     height: 100vh;
-    overflow-x: hidden;
+    overflow: hidden;
     place-items: center;
     position: relative;
     width: 100vw;
