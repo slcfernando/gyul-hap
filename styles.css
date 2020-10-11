@@ -30,13 +30,16 @@ aside {
 /* LAYOUT */
 html {
     height: 100vh;
+    overflow-x: hidden;
     width: 100vw;
 }
 
 body {
     display: grid;
     height: 100vh;
+    overflow-x: hidden;
     place-items: center;
+    position: relative;
     width: 100vw;
 }
 
@@ -101,6 +104,16 @@ aside {
 }
 
 /* MEDIA QUERIES */
+@media (max-width: 400px) {
+    main {
+        grid: repeat(3, 125px) / repeat(3, 125px);
+    }
+
+    aside {
+        font-size: 40px;
+    }
+}
+
 @media (min-width: 900px) {
     body {
         grid-template-columns: 1fr 1fr;
