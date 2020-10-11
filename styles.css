@@ -106,7 +106,12 @@ aside {
 /* MEDIA QUERIES */
 @media (max-width: 400px) {
     main {
-        grid: repeat(3, 125px) / repeat(3, 125px);
+        grid: repeat(3, 120px) / repeat(3, 120px);
+    }
+
+    .tile {
+        height: 110px;
+        width: 110px;
     }
 
     aside {
